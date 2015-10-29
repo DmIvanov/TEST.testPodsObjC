@@ -1,0 +1,13 @@
+PODS:
+  - JSONModel-tf (1.0.2-tf)
+  - SocketRocket (0.4.1)
+
+DEPENDENCIES:
+  - JSONModel-tf (~> 1.0.2-tf)
+  - SocketRocket
+
+SPEC CHECKSUMS:
+  JSONModel-tf: c1ef6afeaddcd6f182c4ab4d3bfe2522ed7f1ff8
+  SocketRocket: ee0b5c34182d37bb4f1f8d628bbe737718126daa
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,20 @@
+PODS:
+  - JSONModel (1.1.2)
+  - SocketRocket (0.4.1)
+  - TFLConnectionLayer (0.0.1):
+    - JSONModel
+    - SocketRocket
+
+DEPENDENCIES:
+  - TFLConnectionLayer (from `libs/TFLConnectionLayer`)
+
+EXTERNAL SOURCES:
+  TFLConnectionLayer:
+    :path: libs/TFLConnectionLayer
+
+SPEC CHECKSUMS:
+  JSONModel: 216584d0311b053ff714f1d6cb700dbf890847bc
+  SocketRocket: ee0b5c34182d37bb4f1f8d628bbe737718126daa
+  TFLConnectionLayer: 3611b10bbd09de0905cfbd346ec267ca1ac4a973
+
+COCOAPODS: 0.39.0

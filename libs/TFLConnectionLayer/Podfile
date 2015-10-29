@@ -1,0 +1,11 @@
+source 'git@github.com:Topface/ios-spec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+# use_frameworks!
+
+target 'TFLConnectionLayer' do
+	pod 'SocketRocket'
+	pod 'JSONModel-tf', '~> 1.0.2-tf'
+end
+

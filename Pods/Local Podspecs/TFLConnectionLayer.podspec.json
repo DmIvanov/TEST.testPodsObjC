@@ -1,0 +1,21 @@
+{
+  "name": "TFLConnectionLayer",
+  "version": "0.0.1",
+  "summary": "",
+  "description": "Lib for wrapping client-server interaction (mostly for WS)",
+  "license": "MIT",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "TFLConnectionLayer/**/*.{h,m}",
+  "prefix_header_file": "TFLConnectionLayer/SupportingFiles/TFLCLPreffix.pch",
+  "dependencies": {
+    "SocketRocket": [
+
+    ],
+    "JSONModel": [
+
+    ]
+  }
+}

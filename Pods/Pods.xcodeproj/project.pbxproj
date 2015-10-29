@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042E938FF13F293853AB7508ECFE1BA4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2D5401070CD906F2C561785EE935FB /* Reachability.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		04D7C5BC5A387D2D5EEB4AD9E559733F /* TFLWSConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F76E427AA1BF947958409C9723FEC14 /* TFLWSConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04EBA32C12A08373C89FE754FAE0C43F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185DD837F110FA985A3A49ED88E8C475 /* Foundation.framework */; };
+		0A146FF03A7FE4CC5639CF6CD928C6F6 /* NSArray+JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5B69E7AE5BB98ADFC096C16CE7506E /* NSArray+JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A7293A87E202D8D92BB3C9D7F3A7843 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		0A8E30B526C722CD6B8A9101150FC57B /* TFLRequestModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7624ECD78C1A1554A0A3BE53864288 /* TFLRequestModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B1404DE63D18FFC099EA026C03F0633 /* TFLCLNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 121E8A8524C9D22F03B7E11CF14F6B68 /* TFLCLNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C5E7F5D04283427545693F052FE83B2 /* TFLNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DB3A81918F894B2C54C0474C4A44B4 /* TFLNetworkOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1666B82C2FA82B4884DDC472B1B46B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185DD837F110FA985A3A49ED88E8C475 /* Foundation.framework */; };
+		18CDC7AAC737A9E584948136CBF39138 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58631B92B1A0E9628829D8299798FC /* JSONModel+networking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1CEF9997BEA84F430F844E73DE3AE532 /* TFLRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B274A1E78B14D78763954A77E9B9C3 /* TFLRequestModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1FF8EFDB68B1C0F775EEAA207F79C68B /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97F01DF5EAD8223318E108F6E03496 /* JSONKeyMapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		205328B37820AF19FBAE48F00D2BA8FF /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6CA1BEAFF5B28F17FBC5FA157B270 /* SRWebSocket.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		23FC18E04AA4D9CA71E013317A5CC9B5 /* TFLWSConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A150D4F2298646FD57F0A04281E343A0 /* TFLWSConnection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2C1B476499CA13C8BF3BE5797996F382 /* TFLConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B86E0B4A7D21909EB640EB0049367F /* TFLConnectionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3049E0E32993EDFFA23EB5ECE07DB363 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F69A286E447B162AC614CCDD71576F /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C3E058464F834CD3BDD5B173E1E6F2 /* TFLHTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = D8486E936907C6FC9E908CEA95E50EA3 /* TFLHTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39246DBE7845D6E4B73B9F074E81EE42 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA58A41AAFF5978C3AAE3C6F8DE8FC5 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DBCCC43697AD84988C316013A0D0B25 /* NSString+UnsignedLongLong.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E773D1F990AE84DB1CB01D67EE4D2 /* NSString+UnsignedLongLong.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		41AD7769269328483CA6CCAC15774C07 /* TFLConnectionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACAE5C9D5E26E9555B15E028B0CF156 /* TFLConnectionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42815F5FAD1449AF7AD01055D5CCB3FB /* TFLCLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E10617F40D66C714C94A3CDE94D4AF /* TFLCLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		511A81B5E765B159671168AB8647DBAC /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AB7E98E8C0D77FC42EED1E9E0B8A8F /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		512534E64A30E84916FECF4C02327FC5 /* TFLOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FEC02ECDAEA3D89FE450CD3CB6616F /* TFLOperationManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		52AE6FDB74418C9AAE91A64B39E82D55 /* TFLAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB1B0666C38FDD2C04964CF4CDE778F /* TFLAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5989E14F5BAB2E9996B8FB8A3E6D8C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185DD837F110FA985A3A49ED88E8C475 /* Foundation.framework */; };
+		5CB0FABB971CC47B7CDDE742E256EB88 /* TFLProgressiveTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7109516CA0D2B4BBD6A8FAFBCD583296 /* TFLProgressiveTimer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5D74CFB25DD77EAF89D1834C84EC4159 /* TFLConnectionLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AE501688294310641F6A088FA5506D33 /* TFLConnectionLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EA1F35C698981D78335F34C1686E35C /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DC8A51B354E7EF48BD506A8D3FD268 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F6C967916CFAA5D846608140EA96562 /* JSONModelArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B4553A67351B7CD03BCE169A0C23D6 /* JSONModelArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A5F2A2A6DB125C81C609545D2224130 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5B48526DD34DB6F03A09641DB6DF9A /* SocketRocket.framework */; };
+		6BFE15FF855E489AB58B4EBBD66BB56F /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5891E8320A048EA4968B8C60E62A6C73 /* JSONAPI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7002521527078251F25E6DEDF13724BA /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72870C5B7602255359EDDB5020879C6A /* JSONModel-dummy.m */; };
+		7499643DBDFCDBC431473850FBC584A0 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601CFBE41522940F2F754FE1E592940 /* SocketRocket-dummy.m */; };
+		768934773B9214BE7D55379A27DBDEC0 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC41A60944B3F11F2549AE19FBA628A /* JSONValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7F610BE21596EA4D163BB0AAB948561F /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2446B593D7355D43E78E7B336BE28D9E /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C922367BBB5B49FBBD2A58C794111E /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E720B7FB3E74372110345BE180192A0 /* JSONModelClassProperty.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		85D1E00083D575F39F50590C105057CA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A389F4620C5F3C18CAB01BFFE136FB /* CFNetwork.framework */; };
+		8936AC3A893E6904B51ABA7BE123B3B2 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBD891006545ED97DB944F83A76FD6A /* JSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		89DC5F44A4983F8CC860F916FBA6B25A /* TFLHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBAFBD9CB684F01D680752BFEE5369 /* TFLHTTPConnection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8B62FE4C5B8F8769F0DE823B92DAFB1B /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = E2602F84A1F391697BC8BEB445A621AC /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B8DC836955D58DC4F8148EF6412FAAA /* TFLCLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4913E5FD99B6AAF74DE19E28C26B134F /* TFLCLLogger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9339819EA7649D298BFEFD11EA40E37D /* JSONModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3302FA7C8A7E3F8A03ADF3097C1093A /* JSONModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		955CDF003A35EC84E6D4A3AEAFA64CD6 /* TFLOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E31D3C609F902DE63D1B53510C96D0 /* TFLOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B5BCFFE9B8A78649344FFF61C094695 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E0247BC87A5FEA936ADBB6293A04353 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D129FA3BB5630C5F0249E14C639F12C /* TFLResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B548B7DC9A51FB4DD79F14ADE5AA0 /* TFLResponseModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9F1CA3BF3A8F8CC70BC237B55F27F348 /* TFLResponseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7754F5CDAA4F4E535916ACC4232E037F /* TFLResponseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A033E21A0E1DF743E73CEB89A0AB1994 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2A832133D09AF9E75BF1D17FBCA8C5 /* JSONModel.framework */; };
+		A3D4EB5D25281189AADDE7B613B55425 /* TFLConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AF1C9DD2C639F670BC2FD9844A3E94E2 /* TFLConnectionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF5BFE4C9E8FD59301B9FB86EC45C69F /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1ACED8BC6C098D0B4C1B153C0E68FA0 /* TFLAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D4FFC1D0F80E688D8F0A2F2E886869 /* TFLAPIClient.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B1B4AA269394BFE1870BC2B9199F0097 /* TFLProgressiveTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F468222BF0978C0177DDF77D6BDA9EC /* TFLProgressiveTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B34A06FAD0761AB76D6A2FB994CE14DD /* TFLCLNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0A101DA56116AFFBA4AB751437FEB /* TFLCLNotifications.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B514F5B20C77E3BB07398ED7B77B5468 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 353B16AC98F4EA41C200701C7BDF2C2D /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6DA24BCD0D55CF5FEEB5BC4D02147AF /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F392D6C59AF711F73446B8E3EBA24C /* JSONModelError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B848DF07EE982A4447BF651C635CE302 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A286125ACF6A3D3D2CC004000E028BE8 /* NSArray+JSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BADE15E7AF3F6103BFBF010119D99F7C /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F5FD552228449C92E1BFCC88DDCF33 /* JSONModelArray.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BC4D72266029C3E608590F4E2C6A544D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D54660896CCA337687E69A1E483215 /* Security.framework */; };
+		BE128D3B7276925146DB73413DCA89CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185DD837F110FA985A3A49ED88E8C475 /* Foundation.framework */; };
+		C3437AE08F8583093CCDB9762D7BC6DD /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 08400B5821886935302C222DB59B8D9D /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C649F5318C38DAAEA0D9F3F926472F30 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C5ED7CB01E5CAD7E3BEE24DA2CF896C7 /* JSONHTTPClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D450C70C73306C515D2AF12A15C9F33E /* TFLNetworkOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C332A129B8609CEDC508D52ACA1881FA /* TFLNetworkOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4901D771BC43EAA1E9767289E59A8FD /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD71F05CE2EA119E66BA4CB7DC8D2CB /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42232AB4DE51B9BF4390CB7859A912A /* TFLConnectionLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 747170A40C375B22EF9153CA119CF64B /* TFLConnectionLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6509A3304F0FFC5E1EAA096D0F5DFC5 /* TFLConnectionLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A8F88887C3117A3187E52225954A80 /* TFLConnectionLayer-dummy.m */; };
+		E95D9894D96F086DDD82D64D692DA5C0 /* NSString+UnsignedLongLong.h in Headers */ = {isa = PBXBuildFile; fileRef = 04095EFC1FC30B1743B8B2DE79FCFD1D /* NSString+UnsignedLongLong.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F729D882D7C33A2517E3DF25C4CA701E /* TFLCLCustomTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 33EC2111D5846FD72A321B61E705E378 /* TFLCLCustomTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA806409325D2BB94CF1D3372B594097 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5D0E7DC21400E4327F7AFB6F115C84 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD685BAE2583AFD31AF68A7EE49CD5AF /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F9791A9F3740401BA440C394A00DCA /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE947A0625A8572C4C10B4AF460D9B37 /* TFLConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6302B0CC26B8561572B886B15058F0 /* TFLConnectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		130424C84C38B016E3D0D8412D1E2174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5164752D83E6045F261F83FE47AE409C;
+			remoteInfo = SocketRocket;
+		};
+		4DBA91B732AE3FD03D7A9E5DEC87CF4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9D711C0B40E1CCDEA7FE1984AB7EF8B;
+			remoteInfo = TFLConnectionLayer;
+		};
+		67E371E57F819B0C8B3FEC4F6F6B6624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5164752D83E6045F261F83FE47AE409C;
+			remoteInfo = SocketRocket;
+		};
+		C34A2FD57C14DEBF1130CAB944915565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BF8569A1D17D47E1A86EB020383E8D1;
+			remoteInfo = JSONModel;
+		};
+		D58497C1DEED0C0F424ED513E9AB065D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BF8569A1D17D47E1A86EB020383E8D1;
+			remoteInfo = JSONModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04095EFC1FC30B1743B8B2DE79FCFD1D /* NSString+UnsignedLongLong.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+UnsignedLongLong.h"; sourceTree = "<group>"; };
+		05B274A1E78B14D78763954A77E9B9C3 /* TFLRequestModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFLRequestModel.m; sourceTree = "<group>"; };
+		08400B5821886935302C222DB59B8D9D /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		0B48764673BDF8A6B86F6CCEFCE5DDC6 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		0C5D0E7DC21400E4327F7AFB6F115C84 /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		0E720B7FB3E74372110345BE180192A0 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		0EEBAFBD9CB684F01D680752BFEE5369 /* TFLHTTPConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFLHTTPConnection.m; sourceTree = "<group>"; };
+		0F76E427AA1BF947958409C9723FEC14 /* TFLWSConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLWSConnection.h; sourceTree = "<group>"; };
+		1191F432FABB574A5F6D02230F51033D /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		121E8A8524C9D22F03B7E11CF14F6B68 /* TFLCLNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLCLNotifications.h; sourceTree = "<group>"; };
+		15EEB423C74E465BFB936C1461F90572 /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		185DD837F110FA985A3A49ED88E8C475 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1C19082455D788647D7E5723694F93FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209B548B7DC9A51FB4DD79F14ADE5AA0 /* TFLResponseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFLResponseModel.m; sourceTree = "<group>"; };
+		2446B593D7355D43E78E7B336BE28D9E /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		24A0A101DA56116AFFBA4AB751437FEB /* TFLCLNotifications.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFLCLNotifications.m; sourceTree = "<group>"; };
+		29B4553A67351B7CD03BCE169A0C23D6 /* JSONModelArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelArray.h; path = JSONModel/JSONModel/JSONModelArray.h; sourceTree = "<group>"; };
+		2A7624ECD78C1A1554A0A3BE53864288 /* TFLRequestModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLRequestModel.h; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		2D6302B0CC26B8561572B886B15058F0 /* TFLConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLConnectionDelegate.h; sourceTree = "<group>"; };
+		2D7085F0E7411E46026DAB6A7CD63596 /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
+		32AB7E98E8C0D77FC42EED1E9E0B8A8F /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		33EC2111D5846FD72A321B61E705E378 /* TFLCLCustomTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLCLCustomTypes.h; sourceTree = "<group>"; };
+		353B16AC98F4EA41C200701C7BDF2C2D /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		40DC8A51B354E7EF48BD506A8D3FD268 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		43E31D3C609F902DE63D1B53510C96D0 /* TFLOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLOperationManager.h; sourceTree = "<group>"; };
+		4913E5FD99B6AAF74DE19E28C26B134F /* TFLCLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFLCLLogger.m; sourceTree = "<group>"; };
+		4EFC545EF00C4017641503D42D3CC7A7 /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JSONModel.modulemap; sourceTree = "<group>"; };
+		54A389F4620C5F3C18CAB01BFFE136FB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		5891E8320A048EA4968B8C60E62A6C73 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		5AD71F05CE2EA119E66BA4CB7DC8D2CB /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		65DB3A81918F894B2C54C0474C4A44B4 /* TFLNetworkOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFLNetworkOperation.m; sourceTree = "<group>"; };
+		6D2A832133D09AF9E75BF1D17FBCA8C5 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E67D18C5D1C00B35EE7B9E6CEF6C1E2 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		6F52230271A7A4F0589E7B3105099771 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7109516CA0D2B4BBD6A8FAFBCD583296 /* TFLProgressiveTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFLProgressiveTimer.m; sourceTree = "<group>"; };
+		72870C5B7602255359EDDB5020879C6A /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		746FC9DBBE606D554E15E9D1EE4FD310 /* TFLConnectionLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TFLConnectionLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		747170A40C375B22EF9153CA119CF64B /* TFLConnectionLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFLConnectionLayer-umbrella.h"; sourceTree = "<group>"; };
+		76F392D6C59AF711F73446B8E3EBA24C /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		7754F5CDAA4F4E535916ACC4232E037F /* TFLResponseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLResponseModel.h; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7A58631B92B1A0E9628829D8299798FC /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		7B5B48526DD34DB6F03A09641DB6DF9A /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F468222BF0978C0177DDF77D6BDA9EC /* TFLProgressiveTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLProgressiveTimer.h; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8DDAF5A14C7FA90B7D13DB236946E3A4 /* TFLConnectionLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFLConnectionLayer.xcconfig; sourceTree = "<group>"; };
+		8E0247BC87A5FEA936ADBB6293A04353 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		8EB1B0666C38FDD2C04964CF4CDE778F /* TFLAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLAPIClient.h; sourceTree = "<group>"; };
+		8EE6CA1BEAFF5B28F17FBC5FA157B270 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		91A8F88887C3117A3187E52225954A80 /* TFLConnectionLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TFLConnectionLayer-dummy.m"; sourceTree = "<group>"; };
+		92FEC02ECDAEA3D89FE450CD3CB6616F /* TFLOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFLOperationManager.m; sourceTree = "<group>"; };
+		95F5FD552228449C92E1BFCC88DDCF33 /* JSONModelArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelArray.m; path = JSONModel/JSONModel/JSONModelArray.m; sourceTree = "<group>"; };
+		9601CFBE41522940F2F754FE1E592940 /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		97B86E0B4A7D21909EB640EB0049367F /* TFLConnectionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFLConnectionManager.m; sourceTree = "<group>"; };
+		9ACAE5C9D5E26E9555B15E028B0CF156 /* TFLConnectionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLConnectionProtocol.h; sourceTree = "<group>"; };
+		9E39532E07C7A0B122355F42FC74700B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A150D4F2298646FD57F0A04281E343A0 /* TFLWSConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFLWSConnection.m; sourceTree = "<group>"; };
+		A286125ACF6A3D3D2CC004000E028BE8 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JSONModel.m"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		A9D3A46AE11961FFEFE7954BD2B23D8D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5B69E7AE5BB98ADFC096C16CE7506E /* NSArray+JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+JSONModel.h"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		ADBD891006545ED97DB944F83A76FD6A /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		AE501688294310641F6A088FA5506D33 /* TFLConnectionLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLConnectionLayer.h; sourceTree = "<group>"; };
+		AF1C9DD2C639F670BC2FD9844A3E94E2 /* TFLConnectionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLConnectionManager.h; sourceTree = "<group>"; };
+		B4E10617F40D66C714C94A3CDE94D4AF /* TFLCLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLCLLogger.h; sourceTree = "<group>"; };
+		B9D54660896CCA337687E69A1E483215 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFC41A60944B3F11F2549AE19FBA628A /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		C2D4FFC1D0F80E688D8F0A2F2E886869 /* TFLAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFLAPIClient.m; sourceTree = "<group>"; };
+		C332A129B8609CEDC508D52ACA1881FA /* TFLNetworkOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLNetworkOperation.h; sourceTree = "<group>"; };
+		C49E33C845A281C3F08F8F01EE97CDDB /* TFLConnectionLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TFLConnectionLayer.modulemap; sourceTree = "<group>"; };
+		C5ED7CB01E5CAD7E3BEE24DA2CF896C7 /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		C840513F5A8BD0767131A6F845EFD942 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1F9791A9F3740401BA440C394A00DCA /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		D2CE3FA640C2CE385A2D49FAE04221A8 /* TFLConnectionLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFLConnectionLayer-prefix.pch"; sourceTree = "<group>"; };
+		D8486E936907C6FC9E908CEA95E50EA3 /* TFLHTTPConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFLHTTPConnection.h; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DEA58A41AAFF5978C3AAE3C6F8DE8FC5 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
+		DF2D5401070CD906F2C561785EE935FB /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E2602F84A1F391697BC8BEB445A621AC /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		E380BFC5877D9ECA7B4F5DEEA4B37DDE /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45E773D1F990AE84DB1CB01D67EE4D2 /* NSString+UnsignedLongLong.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+UnsignedLongLong.m"; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3302FA7C8A7E3F8A03ADF3097C1093A /* JSONModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-umbrella.h"; sourceTree = "<group>"; };
+		F7F69A286E447B162AC614CCDD71576F /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FD97F01DF5EAD8223318E108F6E03496 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BF4CB2DD4447F93E01463B5C066E01B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5989E14F5BAB2E9996B8FB8A3E6D8C76 /* Foundation.framework in Frameworks */,
+				A033E21A0E1DF743E73CEB89A0AB1994 /* JSONModel.framework in Frameworks */,
+				6A5F2A2A6DB125C81C609545D2224130 /* SocketRocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		213C9FC8483A812C5AA1B41902323720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE128D3B7276925146DB73413DCA89CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34049E9BD6AB19671F71F4FFC8F4E77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EBA32C12A08373C89FE754FAE0C43F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B496066F381AD5AF54BA5BF1B5D846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D1E00083D575F39F50590C105057CA /* CFNetwork.framework in Frameworks */,
+				1666B82C2FA82B4884DDC472B1B46B36 /* Foundation.framework in Frameworks */,
+				BC4D72266029C3E608590F4E2C6A544D /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03176F68C2DA25202DC160466D8EFF42 /* TFLConnectionLayer */ = {
+			isa = PBXGroup;
+			children = (
+				33EC2111D5846FD72A321B61E705E378 /* TFLCLCustomTypes.h */,
+				2D6302B0CC26B8561572B886B15058F0 /* TFLConnectionDelegate.h */,
+				AE501688294310641F6A088FA5506D33 /* TFLConnectionLayer.h */,
+				657BA1346DB7A3BA17C743A6A12864F7 /* Core */,
+			);
+			path = TFLConnectionLayer;
+			sourceTree = "<group>";
+		};
+		0681513B366F9A5A1A944C9F598C7DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D2A832133D09AF9E75BF1D17FBCA8C5 /* JSONModel.framework */,
+				7B5B48526DD34DB6F03A09641DB6DF9A /* SocketRocket.framework */,
+				F76F5C7A48F09AA12DCEA824F8A3D59E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A64DBFCE3247BAAE60EECA77E161BF8 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				40DC8A51B354E7EF48BD506A8D3FD268 /* SRWebSocket.h */,
+				8EE6CA1BEAFF5B28F17FBC5FA157B270 /* SRWebSocket.m */,
+				74D0B54A014DC78BDC2D10365D17FD8C /* Support Files */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		0E8C0528B63589CE2CCACFB440E6C151 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41CF7569A8906088EBB984B18579FB81 /* JSONModel */,
+				0A64DBFCE3247BAAE60EECA77E161BF8 /* SocketRocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		17C0EDD1960560A180330492C1E6D2EC /* OperationManager */ = {
+			isa = PBXGroup;
+			children = (
+				43E31D3C609F902DE63D1B53510C96D0 /* TFLOperationManager.h */,
+				92FEC02ECDAEA3D89FE450CD3CB6616F /* TFLOperationManager.m */,
+			);
+			path = OperationManager;
+			sourceTree = "<group>";
+		};
+		2846257ED81382FECCAF697A85F3872A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E39532E07C7A0B122355F42FC74700B /* Info.plist */,
+				C49E33C845A281C3F08F8F01EE97CDDB /* TFLConnectionLayer.modulemap */,
+				8DDAF5A14C7FA90B7D13DB236946E3A4 /* TFLConnectionLayer.xcconfig */,
+				91A8F88887C3117A3187E52225954A80 /* TFLConnectionLayer-dummy.m */,
+				D2CE3FA640C2CE385A2D49FAE04221A8 /* TFLConnectionLayer-prefix.pch */,
+				747170A40C375B22EF9153CA119CF64B /* TFLConnectionLayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/TFLConnectionLayer";
+			sourceTree = "<group>";
+		};
+		40638720927D1DFFE0C0640644859839 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1B0666C38FDD2C04964CF4CDE778F /* TFLAPIClient.h */,
+				C2D4FFC1D0F80E688D8F0A2F2E886869 /* TFLAPIClient.m */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		41CF7569A8906088EBB984B18579FB81 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				8E0247BC87A5FEA936ADBB6293A04353 /* JSONAPI.h */,
+				5891E8320A048EA4968B8C60E62A6C73 /* JSONAPI.m */,
+				08400B5821886935302C222DB59B8D9D /* JSONHTTPClient.h */,
+				C5ED7CB01E5CAD7E3BEE24DA2CF896C7 /* JSONHTTPClient.m */,
+				5AD71F05CE2EA119E66BA4CB7DC8D2CB /* JSONKeyMapper.h */,
+				FD97F01DF5EAD8223318E108F6E03496 /* JSONKeyMapper.m */,
+				353B16AC98F4EA41C200701C7BDF2C2D /* JSONModel.h */,
+				ADBD891006545ED97DB944F83A76FD6A /* JSONModel.m */,
+				2446B593D7355D43E78E7B336BE28D9E /* JSONModel+networking.h */,
+				7A58631B92B1A0E9628829D8299798FC /* JSONModel+networking.m */,
+				29B4553A67351B7CD03BCE169A0C23D6 /* JSONModelArray.h */,
+				95F5FD552228449C92E1BFCC88DDCF33 /* JSONModelArray.m */,
+				D1F9791A9F3740401BA440C394A00DCA /* JSONModelClassProperty.h */,
+				0E720B7FB3E74372110345BE180192A0 /* JSONModelClassProperty.m */,
+				32AB7E98E8C0D77FC42EED1E9E0B8A8F /* JSONModelError.h */,
+				76F392D6C59AF711F73446B8E3EBA24C /* JSONModelError.m */,
+				0C5D0E7DC21400E4327F7AFB6F115C84 /* JSONModelLib.h */,
+				E2602F84A1F391697BC8BEB445A621AC /* JSONValueTransformer.h */,
+				BFC41A60944B3F11F2549AE19FBA628A /* JSONValueTransformer.m */,
+				AB5B69E7AE5BB98ADFC096C16CE7506E /* NSArray+JSONModel.h */,
+				A286125ACF6A3D3D2CC004000E028BE8 /* NSArray+JSONModel.m */,
+				777092E69464A903F4C01CA19A4433FA /* Support Files */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		42D58B345BBBEB1E75DF9FFE8F768886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E380BFC5877D9ECA7B4F5DEEA4B37DDE /* JSONModel.framework */,
+				A9D3A46AE11961FFEFE7954BD2B23D8D /* Pods.framework */,
+				1191F432FABB574A5F6D02230F51033D /* SocketRocket.framework */,
+				746FC9DBBE606D554E15E9D1EE4FD310 /* TFLConnectionLayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460F2CB0892A23484B3C619B58C02A20 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				121E8A8524C9D22F03B7E11CF14F6B68 /* TFLCLNotifications.h */,
+				24A0A101DA56116AFFBA4AB751437FEB /* TFLCLNotifications.m */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		50959E44DED37DFF3A397739AB8A063A /* ConnectionService */ = {
+			isa = PBXGroup;
+			children = (
+				AF1C9DD2C639F670BC2FD9844A3E94E2 /* TFLConnectionManager.h */,
+				97B86E0B4A7D21909EB640EB0049367F /* TFLConnectionManager.m */,
+				9ACAE5C9D5E26E9555B15E028B0CF156 /* TFLConnectionProtocol.h */,
+				D8486E936907C6FC9E908CEA95E50EA3 /* TFLHTTPConnection.h */,
+				0EEBAFBD9CB684F01D680752BFEE5369 /* TFLHTTPConnection.m */,
+				0F76E427AA1BF947958409C9723FEC14 /* TFLWSConnection.h */,
+				A150D4F2298646FD57F0A04281E343A0 /* TFLWSConnection.m */,
+			);
+			path = ConnectionService;
+			sourceTree = "<group>";
+		};
+		55D250C2903C9D51B640CDF1EFEA71F3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA2AAB88FB8EFC7D0289D059E65E51DC /* TFLConnectionLayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5C013770B140647E64AF542332CCEF9D /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				B4E10617F40D66C714C94A3CDE94D4AF /* TFLCLLogger.h */,
+				4913E5FD99B6AAF74DE19E28C26B134F /* TFLCLLogger.m */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		5C269B6EAB75AC15975418CC8BF26EF6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04095EFC1FC30B1743B8B2DE79FCFD1D /* NSString+UnsignedLongLong.h */,
+				E45E773D1F990AE84DB1CB01D67EE4D2 /* NSString+UnsignedLongLong.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6479FE13D93D3809B3C2014F3125FE00 /* APIModels */ = {
+			isa = PBXGroup;
+			children = (
+				2A7624ECD78C1A1554A0A3BE53864288 /* TFLRequestModel.h */,
+				05B274A1E78B14D78763954A77E9B9C3 /* TFLRequestModel.m */,
+				7754F5CDAA4F4E535916ACC4232E037F /* TFLResponseModel.h */,
+				209B548B7DC9A51FB4DD79F14ADE5AA0 /* TFLResponseModel.m */,
+			);
+			path = APIModels;
+			sourceTree = "<group>";
+		};
+		657BA1346DB7A3BA17C743A6A12864F7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				40638720927D1DFFE0C0640644859839 /* APIClient */,
+				6479FE13D93D3809B3C2014F3125FE00 /* APIModels */,
+				50959E44DED37DFF3A397739AB8A063A /* ConnectionService */,
+				5C269B6EAB75AC15975418CC8BF26EF6 /* Extensions */,
+				5C013770B140647E64AF542332CCEF9D /* Logger */,
+				C94836E56212195F39DB9E10FBA7BF88 /* NetworkOperation */,
+				460F2CB0892A23484B3C619B58C02A20 /* Notifications */,
+				17C0EDD1960560A180330492C1E6D2EC /* OperationManager */,
+				DBA13557451A52A2D950530628B3597E /* ProgressiveTimer */,
+				BF298FC7EAE1CE4523617A757460CCC2 /* Reachability */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		74D0B54A014DC78BDC2D10365D17FD8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F52230271A7A4F0589E7B3105099771 /* Info.plist */,
+				15EEB423C74E465BFB936C1461F90572 /* SocketRocket.modulemap */,
+				6E67D18C5D1C00B35EE7B9E6CEF6C1E2 /* SocketRocket.xcconfig */,
+				9601CFBE41522940F2F754FE1E592940 /* SocketRocket-dummy.m */,
+				0B48764673BDF8A6B86F6CCEFCE5DDC6 /* SocketRocket-prefix.pch */,
+				DEA58A41AAFF5978C3AAE3C6F8DE8FC5 /* SocketRocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		777092E69464A903F4C01CA19A4433FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C19082455D788647D7E5723694F93FE /* Info.plist */,
+				4EFC545EF00C4017641503D42D3CC7A7 /* JSONModel.modulemap */,
+				2D7085F0E7411E46026DAB6A7CD63596 /* JSONModel.xcconfig */,
+				72870C5B7602255359EDDB5020879C6A /* JSONModel-dummy.m */,
+				C840513F5A8BD0767131A6F845EFD942 /* JSONModel-prefix.pch */,
+				F3302FA7C8A7E3F8A03ADF3097C1093A /* JSONModel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				55D250C2903C9D51B640CDF1EFEA71F3 /* Development Pods */,
+				0681513B366F9A5A1A944C9F598C7DDC /* Frameworks */,
+				0E8C0528B63589CE2CCACFB440E6C151 /* Pods */,
+				42D58B345BBBEB1E75DF9FFE8F768886 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF298FC7EAE1CE4523617A757460CCC2 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				F7F69A286E447B162AC614CCDD71576F /* Reachability.h */,
+				DF2D5401070CD906F2C561785EE935FB /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		C94836E56212195F39DB9E10FBA7BF88 /* NetworkOperation */ = {
+			isa = PBXGroup;
+			children = (
+				C332A129B8609CEDC508D52ACA1881FA /* TFLNetworkOperation.h */,
+				65DB3A81918F894B2C54C0474C4A44B4 /* TFLNetworkOperation.m */,
+			);
+			path = NetworkOperation;
+			sourceTree = "<group>";
+		};
+		CA2AAB88FB8EFC7D0289D059E65E51DC /* TFLConnectionLayer */ = {
+			isa = PBXGroup;
+			children = (
+				2846257ED81382FECCAF697A85F3872A /* Support Files */,
+				03176F68C2DA25202DC160466D8EFF42 /* TFLConnectionLayer */,
+			);
+			name = TFLConnectionLayer;
+			path = ../libs/TFLConnectionLayer;
+			sourceTree = "<group>";
+		};
+		DBA13557451A52A2D950530628B3597E /* ProgressiveTimer */ = {
+			isa = PBXGroup;
+			children = (
+				7F468222BF0978C0177DDF77D6BDA9EC /* TFLProgressiveTimer.h */,
+				7109516CA0D2B4BBD6A8FAFBCD583296 /* TFLProgressiveTimer.m */,
+			);
+			path = ProgressiveTimer;
+			sourceTree = "<group>";
+		};
+		F76F5C7A48F09AA12DCEA824F8A3D59E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54A389F4620C5F3C18CAB01BFFE136FB /* CFNetwork.framework */,
+				185DD837F110FA985A3A49ED88E8C475 /* Foundation.framework */,
+				B9D54660896CCA337687E69A1E483215 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0643796B368FF01877F2399BE5AF7BFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5BFE4C9E8FD59301B9FB86EC45C69F /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3A676AE93F25ACCB91C5C37044ED58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95D9894D96F086DDD82D64D692DA5C0 /* NSString+UnsignedLongLong.h in Headers */,
+				3049E0E32993EDFFA23EB5ECE07DB363 /* Reachability.h in Headers */,
+				52AE6FDB74418C9AAE91A64B39E82D55 /* TFLAPIClient.h in Headers */,
+				F729D882D7C33A2517E3DF25C4CA701E /* TFLCLCustomTypes.h in Headers */,
+				42815F5FAD1449AF7AD01055D5CCB3FB /* TFLCLLogger.h in Headers */,
+				0B1404DE63D18FFC099EA026C03F0633 /* TFLCLNotifications.h in Headers */,
+				FE947A0625A8572C4C10B4AF460D9B37 /* TFLConnectionDelegate.h in Headers */,
+				E42232AB4DE51B9BF4390CB7859A912A /* TFLConnectionLayer-umbrella.h in Headers */,
+				5D74CFB25DD77EAF89D1834C84EC4159 /* TFLConnectionLayer.h in Headers */,
+				A3D4EB5D25281189AADDE7B613B55425 /* TFLConnectionManager.h in Headers */,
+				41AD7769269328483CA6CCAC15774C07 /* TFLConnectionProtocol.h in Headers */,
+				30C3E058464F834CD3BDD5B173E1E6F2 /* TFLHTTPConnection.h in Headers */,
+				D450C70C73306C515D2AF12A15C9F33E /* TFLNetworkOperation.h in Headers */,
+				955CDF003A35EC84E6D4A3AEAFA64CD6 /* TFLOperationManager.h in Headers */,
+				B1B4AA269394BFE1870BC2B9199F0097 /* TFLProgressiveTimer.h in Headers */,
+				0A8E30B526C722CD6B8A9101150FC57B /* TFLRequestModel.h in Headers */,
+				9F1CA3BF3A8F8CC70BC237B55F27F348 /* TFLResponseModel.h in Headers */,
+				04D7C5BC5A387D2D5EEB4AD9E559733F /* TFLWSConnection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504FFA4C70BAE145B3372C74086EE3A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39246DBE7845D6E4B73B9F074E81EE42 /* SocketRocket-umbrella.h in Headers */,
+				5EA1F35C698981D78335F34C1686E35C /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D16032B85DD0BBE8BF1ECCF4137A001 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5BCFFE9B8A78649344FFF61C094695 /* JSONAPI.h in Headers */,
+				C3437AE08F8583093CCDB9762D7BC6DD /* JSONHTTPClient.h in Headers */,
+				D4901D771BC43EAA1E9767289E59A8FD /* JSONKeyMapper.h in Headers */,
+				7F610BE21596EA4D163BB0AAB948561F /* JSONModel+networking.h in Headers */,
+				9339819EA7649D298BFEFD11EA40E37D /* JSONModel-umbrella.h in Headers */,
+				B514F5B20C77E3BB07398ED7B77B5468 /* JSONModel.h in Headers */,
+				5F6C967916CFAA5D846608140EA96562 /* JSONModelArray.h in Headers */,
+				FD685BAE2583AFD31AF68A7EE49CD5AF /* JSONModelClassProperty.h in Headers */,
+				511A81B5E765B159671168AB8647DBAC /* JSONModelError.h in Headers */,
+				FA806409325D2BB94CF1D3372B594097 /* JSONModelLib.h in Headers */,
+				8B62FE4C5B8F8769F0DE823B92DAFB1B /* JSONValueTransformer.h in Headers */,
+				0A146FF03A7FE4CC5639CF6CD928C6F6 /* NSArray+JSONModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BF8569A1D17D47E1A86EB020383E8D1 /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 098B1241ACE7660480EBA7EB1845A08B /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				353830DCF5018FD87D7324157C9AC631 /* Sources */,
+				34049E9BD6AB19671F71F4FFC8F4E77F /* Frameworks */,
+				5D16032B85DD0BBE8BF1ECCF4137A001 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = E380BFC5877D9ECA7B4F5DEEA4B37DDE /* JSONModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5164752D83E6045F261F83FE47AE409C /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E180E7153C920701EA960511BF06E7 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				5812F542BB36844D2D2A95AD4972E111 /* Sources */,
+				96B496066F381AD5AF54BA5BF1B5D846 /* Frameworks */,
+				504FFA4C70BAE145B3372C74086EE3A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 1191F432FABB574A5F6D02230F51033D /* SocketRocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AECE54029DFDD55FA48000B4B7456D22 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA1BDCC523776CEEB0B60FB4231979B /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				7CA60D597D12E617C0FB00C9FF9CB3E7 /* Sources */,
+				213C9FC8483A812C5AA1B41902323720 /* Frameworks */,
+				0643796B368FF01877F2399BE5AF7BFF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB346A07BA89B04879C68E27B9250145 /* PBXTargetDependency */,
+				80176EA1F0B663CB246E4595F1E3787C /* PBXTargetDependency */,
+				BE0F555CE0C65927C32B09F7A649B3F9 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = A9D3A46AE11961FFEFE7954BD2B23D8D /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9D711C0B40E1CCDEA7FE1984AB7EF8B /* TFLConnectionLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAB8E2C8EE828145066F98E6418FC77 /* Build configuration list for PBXNativeTarget "TFLConnectionLayer" */;
+			buildPhases = (
+				C496C66E10951E362FB5D8DBFE004333 /* Sources */,
+				0BF4CB2DD4447F93E01463B5C066E01B /* Frameworks */,
+				1C3A676AE93F25ACCB91C5C37044ED58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85F7816E78D9A43BABF490EAEF9839B /* PBXTargetDependency */,
+				2275D7D1D56FA901F1850DB6880E337D /* PBXTargetDependency */,
+			);
+			name = TFLConnectionLayer;
+			productName = TFLConnectionLayer;
+			productReference = 746FC9DBBE606D554E15E9D1EE4FD310 /* TFLConnectionLayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 42D58B345BBBEB1E75DF9FFE8F768886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BF8569A1D17D47E1A86EB020383E8D1 /* JSONModel */,
+				AECE54029DFDD55FA48000B4B7456D22 /* Pods */,
+				5164752D83E6045F261F83FE47AE409C /* SocketRocket */,
+				C9D711C0B40E1CCDEA7FE1984AB7EF8B /* TFLConnectionLayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353830DCF5018FD87D7324157C9AC631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFE15FF855E489AB58B4EBBD66BB56F /* JSONAPI.m in Sources */,
+				C649F5318C38DAAEA0D9F3F926472F30 /* JSONHTTPClient.m in Sources */,
+				1FF8EFDB68B1C0F775EEAA207F79C68B /* JSONKeyMapper.m in Sources */,
+				18CDC7AAC737A9E584948136CBF39138 /* JSONModel+networking.m in Sources */,
+				7002521527078251F25E6DEDF13724BA /* JSONModel-dummy.m in Sources */,
+				8936AC3A893E6904B51ABA7BE123B3B2 /* JSONModel.m in Sources */,
+				BADE15E7AF3F6103BFBF010119D99F7C /* JSONModelArray.m in Sources */,
+				85C922367BBB5B49FBBD2A58C794111E /* JSONModelClassProperty.m in Sources */,
+				B6DA24BCD0D55CF5FEEB5BC4D02147AF /* JSONModelError.m in Sources */,
+				768934773B9214BE7D55379A27DBDEC0 /* JSONValueTransformer.m in Sources */,
+				B848DF07EE982A4447BF651C635CE302 /* NSArray+JSONModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5812F542BB36844D2D2A95AD4972E111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7499643DBDFCDBC431473850FBC584A0 /* SocketRocket-dummy.m in Sources */,
+				205328B37820AF19FBAE48F00D2BA8FF /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA60D597D12E617C0FB00C9FF9CB3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7293A87E202D8D92BB3C9D7F3A7843 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C496C66E10951E362FB5D8DBFE004333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBCCC43697AD84988C316013A0D0B25 /* NSString+UnsignedLongLong.m in Sources */,
+				042E938FF13F293853AB7508ECFE1BA4 /* Reachability.m in Sources */,
+				B1ACED8BC6C098D0B4C1B153C0E68FA0 /* TFLAPIClient.m in Sources */,
+				8B8DC836955D58DC4F8148EF6412FAAA /* TFLCLLogger.m in Sources */,
+				B34A06FAD0761AB76D6A2FB994CE14DD /* TFLCLNotifications.m in Sources */,
+				E6509A3304F0FFC5E1EAA096D0F5DFC5 /* TFLConnectionLayer-dummy.m in Sources */,
+				2C1B476499CA13C8BF3BE5797996F382 /* TFLConnectionManager.m in Sources */,
+				89DC5F44A4983F8CC860F916FBA6B25A /* TFLHTTPConnection.m in Sources */,
+				0C5E7F5D04283427545693F052FE83B2 /* TFLNetworkOperation.m in Sources */,
+				512534E64A30E84916FECF4C02327FC5 /* TFLOperationManager.m in Sources */,
+				5CB0FABB971CC47B7CDDE742E256EB88 /* TFLProgressiveTimer.m in Sources */,
+				1CEF9997BEA84F430F844E73DE3AE532 /* TFLRequestModel.m in Sources */,
+				9D129FA3BB5630C5F0249E14C639F12C /* TFLResponseModel.m in Sources */,
+				23FC18E04AA4D9CA71E013317A5CC9B5 /* TFLWSConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2275D7D1D56FA901F1850DB6880E337D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 5164752D83E6045F261F83FE47AE409C /* SocketRocket */;
+			targetProxy = 67E371E57F819B0C8B3FEC4F6F6B6624 /* PBXContainerItemProxy */;
+		};
+		80176EA1F0B663CB246E4595F1E3787C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 5164752D83E6045F261F83FE47AE409C /* SocketRocket */;
+			targetProxy = 130424C84C38B016E3D0D8412D1E2174 /* PBXContainerItemProxy */;
+		};
+		BE0F555CE0C65927C32B09F7A649B3F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TFLConnectionLayer;
+			target = C9D711C0B40E1CCDEA7FE1984AB7EF8B /* TFLConnectionLayer */;
+			targetProxy = 4DBA91B732AE3FD03D7A9E5DEC87CF4C /* PBXContainerItemProxy */;
+		};
+		C85F7816E78D9A43BABF490EAEF9839B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = 0BF8569A1D17D47E1A86EB020383E8D1 /* JSONModel */;
+			targetProxy = C34A2FD57C14DEBF1130CAB944915565 /* PBXContainerItemProxy */;
+		};
+		CB346A07BA89B04879C68E27B9250145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = 0BF8569A1D17D47E1A86EB020383E8D1 /* JSONModel */;
+			targetProxy = D58497C1DEED0C0F424ED513E9AB065D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C82FADD08BAF7DE49F4CC1589E6AFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDAF5A14C7FA90B7D13DB236946E3A4 /* TFLConnectionLayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TFLConnectionLayer/TFLConnectionLayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFLConnectionLayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TFLConnectionLayer/TFLConnectionLayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TFLConnectionLayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CA4DD247185276C6FC7960B7C983444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7085F0E7411E46026DAB6A7CD63596 /* JSONModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7885420E4D886B6836255569FF2FF84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDAF5A14C7FA90B7D13DB236946E3A4 /* TFLConnectionLayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TFLConnectionLayer/TFLConnectionLayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFLConnectionLayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TFLConnectionLayer/TFLConnectionLayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TFLConnectionLayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		835C899931D55F90935447AC51D5C7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7085F0E7411E46026DAB6A7CD63596 /* JSONModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AD860134F630AC3996A6A318F0C92FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E67D18C5D1C00B35EE7B9E6CEF6C1E2 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2B8F0330C6C5B8F98C1A7AEC51D1E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B0053AA45DDD7443E048AB84C238F0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E67D18C5D1C00B35EE7B9E6CEF6C1E2 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3831A179533C7EBCEC18C6F7CCB59D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		098B1241ACE7660480EBA7EB1845A08B /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA4DD247185276C6FC7960B7C983444 /* Debug */,
+				835C899931D55F90935447AC51D5C7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AAB8E2C8EE828145066F98E6418FC77 /* Build configuration list for PBXNativeTarget "TFLConnectionLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7885420E4D886B6836255569FF2FF84C /* Debug */,
+				0C82FADD08BAF7DE49F4CC1589E6AFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E180E7153C920701EA960511BF06E7 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0053AA45DDD7443E048AB84C238F0A2 /* Debug */,
+				8AD860134F630AC3996A6A318F0C92FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA1BDCC523776CEEB0B60FB4231979B /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3831A179533C7EBCEC18C6F7CCB59D4 /* Debug */,
+				A2B8F0330C6C5B8F98C1A7AEC51D1E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
